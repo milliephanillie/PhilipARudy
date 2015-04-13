@@ -1,0 +1,1 @@
+var foundationRoutes = [{"name":"services","url":"/services","animationIn":"hingeInFromBottom","path":"templates/services.html"},{"name":"home","url":"/","animationIn":"hingeInFromBottom","path":"templates/home.html"}]; 

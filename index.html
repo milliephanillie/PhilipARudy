@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philip A. Rudy - Web & SEO Architect</title>
+    <link href="/assets/css/app.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css">
+    <script src="/assets/js/foundation.js"></script>
+    <script src="/assets/js/templates.js"></script>
+    <script src="/assets/js/routes.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </head>
+  <body>
+
+	     <header>
+		     <nav id="main-nav">
+        <div class="menu-group primary">
+<div class="menu-group-left">
+<ul class="menu-bar primary">
+<li><a ui-sref="home">Philip A. Rudy</a></li>
+<li><a href="" ui-sref="services">What I Do</a></li>
+<li><a href="#">About Me</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div class="menu-group-right">
+<ul class="icon-left primary menu-bar">
+<li><a href="#"><img zf-iconic="" icon="Bell" size="small" class="iconic-color-primary">(616) 238-3838</a></li>
+</ul>
+</div>
+</div>
+        </nav>
+        </header>
+      </div>
+
+      <div ui-view class=""></div>
+	      <section id="bottom-section">
+		      <div class="grid-container">
+			      <div class="grid-block align-center">
+				      <div class="grid-block shrink">
+					      <div id="form-wrapper" class="grid-content">
+						      <a zf-open="basicModal" class="button warning"><img zf-iconic="" icon="Person" size="small" class="iconic-color-primary"> Talk to Me!</a>
+								<div zf-modal="" id="basicModal">
+									<a zf-close="" class="close-button"><img zf-iconic="" icon="Circle-x" size="medium" class="iconic-color-primary"> </a>
+									  <div id="form-wrapper" class="grid-container">
+	 <div class="grid-block shrink align-center">
+		 <div class="grid-content">
+						      <form>
+							      <h3>How Can I Help You?</h3>
+							      <div class="grid-block">
+									  <div class="small-12 medium-6 grid-content">
+									      <label>First Name
+									      	<input type="text" name="firstname" placeholder="First Name" />
+									      </label>
+									  </div>
+									  <div class="small-12 medium-6 grid-content">
+									      <label>Last Name
+									      	<input type="text" name="firstname" placeholder="Last Name" />
+									      </label>
+									  </div>
+							      </div>
+							      <div clas="grid-block">
+									  <div class="small-12 grid-content">
+									      <label>Email
+									      	<input type="text" name="firstname" placeholder="Email" />
+									      </label>
+									  </div>
+									   <div class="small-12 grid-content">
+							      <label>Message
+								      <textarea cols="4" rows="4"></textarea>
+							      </label>
+									   
+							      <input class="button warning" type="submit" name="submit" value="Let's Start the Conversation!"/>
+									   </div>
+							      </div>
+						      </form>
+					      </div>
+	 </div>
+ </div>
+								</div> 
+					      </div>
+				      </div>
+			      </div>
+		      </div>
+	      </section>
+
+  </body>
+</html>
